@@ -1,0 +1,6 @@
+import math as m
+x=int(input("enter no. for GCD"))
+
+y=int(input("enter no. for GCD"))
+
+print("the gcd of nos is",m.gcd(x,y))

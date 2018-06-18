@@ -1,0 +1,9 @@
+import time
+#question3
+print (time.strftime("%B",time.localtime()))
+#question4
+print (time.strftime("%A",time.localtime()))
+#question5
+print (time.strftime("%e",time.localtime()))
+
+

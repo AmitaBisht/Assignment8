@@ -1,0 +1,12 @@
+#Year        4 Digit
+#Months      1 to 12
+#Day         1 to 31
+#Hour        0 to 23
+#Minute      0 to 59
+#second      0 to 61(including leap second)
+#Day of week 0 to 6
+#Day of year 1 to 366(including leap day)
+
+from datetime import date
+x = date(2018,6,18)
+print(x.strftime("%A,%B,%d,%Y"))

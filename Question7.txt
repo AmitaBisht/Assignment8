@@ -1,0 +1,4 @@
+import math as m
+x=int(input("enter any no."))
+
+print("the factorial of nos is",m.factorial(x))
